@@ -1,12 +1,24 @@
-# Tags: latest, 2.8.3-debian-10-r6, 2.8.3, 2-debian-10, 2
+# Tags: latest, 2.8.3-debian-10-r10, 2.8.3, 2-debian-10, 2
 FROM bitnami/spring-cloud-skipper-shell:latest
-FROM bitnami/spring-cloud-skipper-shell:2.8.3-debian-10-r6
+FROM bitnami/spring-cloud-skipper-shell:2.8.3-debian-10-r10
 FROM bitnami/spring-cloud-skipper-shell:2.8.3
 FROM bitnami/spring-cloud-skipper-shell:2-debian-10
 FROM bitnami/spring-cloud-skipper-shell:2
 
 # Tags: _
 FROM bitnami/spring-cloud-skipper-shell:_
+
+# Tags: 2.8.3-debian-10-r9
+FROM bitnami/spring-cloud-skipper-shell:2.8.3-debian-10-r9
+
+# Tags: 2.8.3-debian-10-r8
+FROM bitnami/spring-cloud-skipper-shell:2.8.3-debian-10-r8
+
+# Tags: 2.8.3-debian-10-r7
+FROM bitnami/spring-cloud-skipper-shell:2.8.3-debian-10-r7
+
+# Tags: 2.8.3-debian-10-r6
+FROM bitnami/spring-cloud-skipper-shell:2.8.3-debian-10-r6
 
 # Tags: 2.8.3-debian-10-r5
 FROM bitnami/spring-cloud-skipper-shell:2.8.3-debian-10-r5
@@ -83,18 +95,3 @@ FROM bitnami/spring-cloud-skipper-shell:2.8.2-debian-10-r48
 
 # Tags: 2.8.2-debian-10-r47
 FROM bitnami/spring-cloud-skipper-shell:2.8.2-debian-10-r47
-
-# Tags: 2.8.2-debian-10-r46
-FROM bitnami/spring-cloud-skipper-shell:2.8.2-debian-10-r46
-
-# Tags: 2.8.2-debian-10-r45
-FROM bitnami/spring-cloud-skipper-shell:2.8.2-debian-10-r45
-
-# Tags: 2.8.2-debian-10-r44
-FROM bitnami/spring-cloud-skipper-shell:2.8.2-debian-10-r44
-
-# Tags: 2.8.2-debian-10-r43
-FROM bitnami/spring-cloud-skipper-shell:2.8.2-debian-10-r43
-
-# Tags: 2.8.2-debian-10-r42
-FROM bitnami/spring-cloud-skipper-shell:2.8.2-debian-10-r42
